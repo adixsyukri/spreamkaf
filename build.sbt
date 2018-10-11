@@ -10,6 +10,8 @@ libraryDependencies ++= {
     "org.apache.spark"     %% "spark-core"              % sparkVer % "provided" withSources(),
     "org.apache.spark"     %% "spark-mllib"             % sparkVer % "provided" withSources(),
     "org.apache.spark"     %% "spark-sql"               % sparkVer % "provided" withSources(),
-    "org.apache.spark"     %% "spark-streaming"         % sparkVer % "provided" withSources()
+    "org.apache.spark"     %% "spark-streaming"         % sparkVer % "provided" withSources(),
+    "org.apache.spark"     %% "spark-hive"              % sparkVer,
+    "org.apache.spark"     %% "spark-streaming-kafka"   % sparkVer % "provided" withSources()
   )
 }
